@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+.addroute{
+  background-image:  url('https://wallpapercave.com/wp/wp2574353.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select.form-control,
+input.form-control {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: all 0.2s ease-in-out;
+}
+
+select.form-control:focus,
+input.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
